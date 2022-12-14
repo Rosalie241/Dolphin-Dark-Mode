@@ -1014,6 +1014,8 @@ QPushButton {
   padding: 2px;
   outline: none;
   border: none;
+  /* needed for RMG-Input */
+  min-width: 40px;
 }
 
 QPushButton:disabled {
